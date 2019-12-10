@@ -1,0 +1,20 @@
+
+<web-app>
+	<display-name>2nd API PROJECT</display-name>
+
+	<servlet>
+		<servlet-name>Restapi2</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet
+		</servlet-class>
+
+	</servlet>
+
+	<servlet-mapping>
+
+		<servlet-name>Restapi2</servlet-name>
+		<url-pattern>/</url-pattern>
+
+	</servlet-mapping>
+
+
+</web-app>
